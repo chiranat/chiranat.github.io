@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chiranat C. | Backend Developer Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=Inter:wght@300;400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; background-color: #000000; }
+        .mono { font-family: 'Fira Code', monospace; }
+        .text-pink-primary { color: #ff007f; }
+        .border-pink-primary { border-color: #ff007f; }
+        .bg-pink-primary { background-color: #ff007f; }
+        .hover-pink:hover { color: #ff007f; text-shadow: 0 0 8px #ff007f; }
+    </style>
+</head>
+<body class="bg-black text-slate-300 leading-relaxed">
+
+    <nav class="fixed w-full z-50 bg-black/80 backdrop-blur-md border-b border-pink-900/30">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <span class="mono text-pink-primary font-bold text-xl tracking-tighter">&lt;CHIRANAT.C /&gt;</span>
+            <div class="space-x-8 hidden md:block">
+                <a href="#about" class="hover-pink transition">About</a>
+                <a href="#experience" class="hover-pink transition">Experience</a>
+                <a href="#projects" class="hover-pink transition">Projects</a>
+                <a href="#contact" class="bg-pink-primary hover:bg-pink-600 text-white px-5 py-2 rounded-full transition shadow-[0_0_15px_rgba(255,0,127,0.4)]">Resume</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="pt-40 pb-20 px-6">
+        <div class="max-w-6xl mx-auto">
+            <p class="mono text-pink-primary mb-4 tracking-widest uppercase text-sm">Hello, my name is</p>
+            <h1 class="text-6xl md:text-8xl font-black text-white mb-6">CHIRANAT<span class="text-pink-primary">.</span></h1>
+            <h2 class="text-3xl md:text-5xl font-bold text-slate-500 mb-8 leading-tight">I architect systems with <span class="text-slate-200">Java Spring Boot.</span></h2>
+            <p class="max-w-2xl text-lg text-slate-400 mb-10 leading-relaxed">
+                Back-end Developer [cite: 4] based in Thailand. I specialize in building high-performance systems[cite: 32], 
+                secure APIs [cite: 5], and containerized infrastructure using Docker[cite: 16, 49].
+            </p>
+            <div class="flex gap-4">
+                <a href="https://github.com/chiranat" class="border-2 border-pink-primary text-pink-primary px-8 py-3 rounded-full hover:bg-pink-primary/10 transition mono font-bold ">VIEW GITHUB</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="py-24 bg-neutral-900/40">
+        <div class="max-w-6xl mx-auto px-6">
+            <h3 class="text-4xl font-black text-white mb-16 flex items-center italic">
+                EXPERIENCE <span class="h-[2px] bg-pink-primary flex-grow ml-8 opacity-50"></span>
+            </h3>
+            
+            <div class="grid md:grid-cols-2 gap-12">
+                <div class="group">
+                    <h4 class="text-pink-primary mono text-sm font-bold mb-2">06-10/2025 [cite: 10]</h4>
+                    <h5 class="text-2xl font-bold text-white mb-1">Backend Developer Intern [cite: 9]</h5>
+                    <p class="text-slate-500 mb-4">GM prosoft co.,Ltd. [cite: 8]</p>
+                    <ul class="space-y-3 text-slate-400">
+                        <li class="flex items-start"><span class="text-pink-primary mr-2">▹</span> Modernized legacy DMS from C++ to Spring Boot [cite: 11]</li>
+                        <li class="flex items-start"><span class="text-pink-primary mr-2">▹</span> Implemented JWT & Secure Access Control [cite: 14]</li>
+                        <li class="flex items-start"><span class="text-pink-primary mr-2">▹</span> Containerized modules using Docker [cite: 16]</li>
+                    </ul>
+                </div>
+
+                <div class="group">
+                    <h4 class="text-pink-primary mono text-sm font-bold mb-2">2026 - PRESENT [cite: 20]</h4>
+                    <h5 class="text-2xl font-bold text-white mb-1">Volunteer IT Support [cite: 19]</h5>
+                    <p class="text-slate-500 mb-4">National Science Museum (NSM) [cite: 18]</p>
+                    <ul class="space-y-3 text-slate-400">
+                        <li class="flex items-start"><span class="text-pink-primary mr-2">▹</span> Resolved network & AD authentication issues [cite: 21, 23]</li>
+                        <li class="flex items-start"><span class="text-pink-primary mr-2">▹</span> Managed Windows 11 system deployments [cite: 23]</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-24">
+        <div class="max-w-6xl mx-auto px-6">
+            <h3 class="text-4xl font-black text-white mb-16 flex items-center italic">
+                SELECTED PROJECTS <span class="h-[2px] bg-pink-primary flex-grow ml-8 opacity-50"></span>
+            </h3>
+
+            <div class="grid md:grid-cols-2 gap-10">
+                <div class="group relative bg-neutral-900 border border-white/5 p-10 rounded-3xl hover:border-pink-primary/50 transition-all duration-500 shadow-2xl">
+                    <i class="fa-solid fa-code-branch text-4xl text-pink-primary mb-6 block"></i>
+                    <h4 class="text-2xl font-bold text-white mb-4 group-hover:text-pink-primary transition-colors">Hand Gesture Control [cite: 29]</h4>
+                    <p class="text-slate-400 mb-8 leading-relaxed">
+                        Vision-based system controlling Windows via hand gestures[cite: 32]. Achieved <span class="text-white">60 FPS</span> using MediaPipe & TensorFlow[cite: 32, 33].
+                    </p>
+                    <div class="flex flex-wrap gap-3 mono text-[10px] tracking-widest font-bold">
+                        <span class="text-pink-primary bg-pink-primary/10 px-3 py-1 rounded">PYTHON</span>
+                        <span class="text-pink-primary bg-pink-primary/10 px-3 py-1 rounded">TENSORFLOW</span>
+                        <span class="text-pink-primary bg-pink-primary/10 px-3 py-1 rounded">CUDA</span>
+                    </div>
+                </div>
+
+                <div class="group relative bg-neutral-900 border border-white/5 p-10 rounded-3xl hover:border-pink-primary/50 transition-all duration-500 shadow-2xl">
+                    <i class="fa-solid fa-server text-4xl text-pink-primary mb-6 block"></i>
+                    <h4 class="text-2xl font-bold text-white mb-4 group-hover:text-pink-primary transition-colors">Smart Restaurant POS [cite: 38]</h4>
+                    <p class="text-slate-400 mb-8 leading-relaxed">
+                        Full-stack ordering ecosystem with <span class="text-white">RBAC</span> [cite: 44] and secure session management[cite: 41]. Optimized PostgreSQL for complex states[cite: 42].
+                    </p>
+                    <div class="flex flex-wrap gap-3 mono text-[10px] tracking-widest font-bold">
+                        <span class="text-pink-primary bg-pink-primary/10 px-3 py-1 rounded">SPRING BOOT</span>
+                        <span class="text-pink-primary bg-pink-primary/10 px-3 py-1 rounded">POSTGRESQL</span>
+                        <span class="text-pink-primary bg-pink-primary/10 px-3 py-1 rounded">JWT</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-pink-primary/5">
+        <div class="max-w-6xl mx-auto px-6 text-center">
+            <h3 class="mono text-pink-primary font-bold mb-10 tracking-[0.3em]">STACKS</h3>
+            <div class="flex flex-wrap justify-center gap-6">
+                <span class="text-xl font-bold text-white hover:text-pink-primary cursor-default transition uppercase [cite: 46]">Java</span>
+                <span class="text-xl font-bold text-white hover:text-pink-primary cursor-default transition uppercase [cite: 47]">Spring Boot</span>
+                <span class="text-xl font-bold text-white hover:text-pink-primary cursor-default transition uppercase [cite: 48]">PostgreSQL</span>
+                <span class="text-xl font-bold text-white hover:text-pink-primary cursor-default transition uppercase [cite: 49]">Docker</span>
+                <span class="text-xl font-bold text-white hover:text-pink-primary cursor-default transition uppercase [cite: 49]">Linux</span>
+                <span class="text-xl font-bold text-white hover:text-pink-primary cursor-default transition uppercase [cite: 49]">Git</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-40 text-center">
+        <div class="max-w-2xl mx-auto px-6">
+            <h3 class="text-5xl font-black text-white mb-6 italic">LET'S CONNECT<span class="text-pink-primary">!</span></h3>
+            <p class="text-slate-400 mb-12 text-lg">
+                I am looking for <span class="text-white">Junior Backend Developer</span> opportunities. 
+                My inbox is always open for discussion.
+            </p>
+            <a href="mailto:chiranat.pae@gmail.com" class="inline-block bg-white text-black font-black px-12 py-5 rounded-full hover:bg-pink-primary hover:text-white transition duration-300 shadow-[0_10px_30px_rgba(255,255,255,0.1)] ">
+                SEND AN EMAIL
+            </a>
+            <div class="mt-12 flex flex-col gap-2 mono text-sm text-slate-500">
+                <p>+66 88-438-0325 </p>
+                <p>chiranat.pae@gmail.com </p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-12 border-t border-white/5 text-center text-slate-600 text-[10px] mono tracking-widest uppercase">
+        Designed & Developed by <span class="text-pink-primary">Chiranat Chantharamalai</span> &copy; 2026
+    </footer>
+
+</body>
+</html>
